@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="X0xfTXJIY0NrNR4eBn0Mcyt1DS9LCigubCEeIyUuDihnIzs1HDtVOw==">
+    <title>文章详情</title>
+    <link href="../assets/607a87c5/css/bootstrap.css" rel="stylesheet">
+<link href="../css/site.css" rel="stylesheet">
+    <link data-turbolinks-track="true" href="../css/application-ac06cc262f438189a83dfcaa5e13b737.css" tppabs="/css/application-ac06cc262f438189a83dfcaa5e13b737.css" media="all" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-5">
+            <a href="index">
+                <img alt="Sast" class="img-responsive heading" src="../images/sast-4a06cdcb9024f2fc6ccb6503f9e889b8.png" tppabs="/images/sast-4a06cdcb9024f2fc6ccb6503f9e889b8.png" />
+            </a>
+        </div>
+        <div class="col-md-5 col-md-offset-1 col-sm-7">
+            <div class="navbar navbar-default navbar-static-top heading-nav" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse heading-navbar">
+                    <ul class="nav navbar-nav">
+                        <input type="hidden" name="_csrf" id='csrf' value="X0xfTXJIY0NrNR4eBn0Mcyt1DS9LCigubCEeIyUuDihnIzs1HDtVOw==">
+                        <li class="active"><a href="index">首页</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="view?id=6#">动态 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class=""><a href="news" >新闻</a></li>
+                                <li class=""><a href="inform" >通知</a></li>
+                                <li class=""><a href="public" >公告</a></li>
+                                <li class=""><a href="active" >活动</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="view?id=6#">比赛 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class=""><a href="view?id=23" >广西大学程序设计竞赛</a></li>
+                                <li class=""><a href="view?id=28" >GDG开源技术社区团队邀请赛</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class=""><a href="about" >联系</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <ul class="breadcrumb"><li><a href="../index.html">首页</a></li>
+<li class="active">文章详情</li>
+</ul></div>
+<div class="container" style="margin-top: 30px;">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="panel panel-info">
+                <div class="panel-body">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active">
+                            <a href="view?id=6#">
+                                活动                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">学术交流平台</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="http://bbs.gxuacm.net"  target="_blank">点击前往</a></li>
+                        <li class=""><a href="introduct" >平台简介</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-9">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        5·9网络安全技术沙龙——与“大佬”的见面座谈会                    </h3>
+                </div>
+                <div class="panel-body">
+                    <p>震惊！昨晚十多名男大学生居然都进入了那间......会议室</p><p><img src="../upload/image/20170510/1494428160182782.jpg" title="1494428160182782.jpg" alt="mmexport1494401598782.jpg"/></p><p>2017年5月9日（昨天）晚上八点，我们西大计协安全分会有幸邀请到了广西信息安全协会某负责人以及若干技术人员，</p><p>来到计算机学院601室与大家见面交流。</p><p><img src="../upload/image/20170510/1494428170963671.jpg" title="1494428170963671.jpg" alt="mmexport1494415140066.jpg"/></p><p>沙龙的开始，按照惯例，当然是进行进行自我介绍啊。我们认识了几位从事网络信息安全方面的大佬，彼此认识之后会议的气氛也轻松起来（滑稽</p><p>会议过程中，前辈们向我们介绍了网络信息安全方面的发展以及行业就业前景，还和大家一起探讨交流web渗透、代码审计等技术细节和学习方法</p><p>========前方开启多图模式==========</p><p style="text-align: center;"><img src="../assets/429a811f/themes/default/images/spacer.gif"/>（认真的进行技术交流）</p><p><img src="../upload/image/20170510/1494428515177344.jpg" title="1494428515177344.jpg" width="1096" height="1116"/></p><p style="text-align: center;"><br/></p><p style="text-align: center;">（沙龙气氛愉快）<br/></p><p><img src="../upload/image/20170510/1494428515255136.jpg" title="1494428515255136.jpg" width="1116" height="1219"/></p><p><img src="../upload/image/20170510/1494428515387156.jpg" title="1494428515387156.jpg" width="1127" height="1128"/></p><p><img src="../upload/image/20170510/1494428515568236.jpg" title="1494428515568236.jpg" width="1109" height="1237"/></p><p style="text-align: center;">（听前辈分享经验）<br/></p><p><img src="../upload/image/20170510/1494428515493243.jpg" title="1494428515493243.jpg" width="1125" height="1244"/></p><p><img src="../upload/image/20170510/1494428515600087.jpg" title="1494428515600087.jpg" width="1129" height="1228"/></p><p style="text-align: center;">（交谈甚欢）<br/></p><p><img src="../upload/image/20170510/1494428515504551.jpg" title="1494428515504551.jpg" width="1124" height="1233"/></p><p><br/></p><p><img src="../upload/image/20170510/1494428278512758.jpg" title="1494428278512758.jpg" alt="mmexport1494415124390.jpg"/></p><p>本次技术沙龙旨在让大家有一个交流技术的平台，认识到网络安全在当今互联网时代中的必要性。</p><p>如我们所知，很多网站或软件都存在着漏洞。那么我们用户的个人信息是否在某个角落已经被人掌握，我们的隐私是否有所保障？</p><p>提高网络安全的意识，以及培养更多的网络信息安全的技术人才是我们共同的期望。</p><p>如果你对网络信息安全感兴趣或者已经有所了解却苦于找不到队友一起深入研究学习，或者是已经战斗在维护网络信息安全的孤胆英雄</p><p><span style="font-size: 20px;"><strong>请多多关注和参与我们<strong style="font-size: 20px; white-space: normal;">西大计协网络信息安全分会</strong>的活动~！</strong></span></p><p>让我们共同面对挑战，肩负起保护人们的信息安全的责任</p><p>最后，感谢前期工作人员的宣传和布置准备，使得本次沙龙成功开展<span class="Apple-tab-span" style="white-space:pre"></span>！~比心心</p><p><img src="../upload/image/20170510/1494428336565819.jpg" title="1494428336565819.jpg" alt="mmexport1494415113459.jpg"/></p><p><br/></p>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <hr>
+    <footer>
+        <ul class="list-inline">
+            <li>&copy; 2019 广西大学计算机协会软件分会</li>
+            <li class="pull-right">邮箱 <a href="mailto: eecskexie@163.com">zfatgxu@qq.com</a></li>
+            <li class="pull-right">&middot;</li>
+            <li class="pull-right"><a href="view?id=6" target="_blank">@计算机与电子信息学院</a></li>
+        </ul>
+    </footer>
+</div>
+
+<script src="../assets/24cf7e83/jquery.js"></script>
+<script src="../assets/47a21a7e/yii.js"></script>
+<script src="../assets/607a87c5/js/bootstrap.js"></script>
+<script type="text/javascript">function logout() {
+var csrf=$("#csrf").val();
+$.ajax({
+type: "POST",
+url: "/user/security/logout",
+dataType: "json",
+data:
+{
+csrfToken:csrf
+},
+success: function(data)
+{
+},
+error: function(jqXHR)
+{
+},
+});
+}
+</script></body>
+</html>

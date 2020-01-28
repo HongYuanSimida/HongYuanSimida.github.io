@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="XzY0LlNDT2xrT3V9J3YgXCsPZkxqAQQBbFt1QAQlIgdnWVBWPTB5FA==">
+    <title>文章详情</title>
+    <link href="../assets/607a87c5/css/bootstrap.css" rel="stylesheet">
+<link href="../css/site.css" rel="stylesheet">
+    <link data-turbolinks-track="true" href="../css/application-ac06cc262f438189a83dfcaa5e13b737.css" tppabs="/css/application-ac06cc262f438189a83dfcaa5e13b737.css" media="all" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-5">
+            <a href="index">
+                <img alt="Sast" class="img-responsive heading" src="../images/sast-4a06cdcb9024f2fc6ccb6503f9e889b8.png" tppabs="/images/sast-4a06cdcb9024f2fc6ccb6503f9e889b8.png" />
+            </a>
+        </div>
+        <div class="col-md-5 col-md-offset-1 col-sm-7">
+            <div class="navbar navbar-default navbar-static-top heading-nav" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse heading-navbar">
+                    <ul class="nav navbar-nav">
+                        <input type="hidden" name="_csrf" id='csrf' value="XzY0LlNDT2xrT3V9J3YgXCsPZkxqAQQBbFt1QAQlIgdnWVBWPTB5FA==">
+                        <li class="active"><a href="index">首页</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="view?id=62#">动态 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class=""><a href="news" >新闻</a></li>
+                                <li class=""><a href="inform" >通知</a></li>
+                                <li class=""><a href="public" >公告</a></li>
+                                <li class=""><a href="active" >活动</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="view?id=62#">比赛 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class=""><a href="view?id=23" >广西大学程序设计竞赛</a></li>
+                                <li class=""><a href="view?id=28" >GDG开源技术社区团队邀请赛</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class=""><a href="about" >联系</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <ul class="breadcrumb"><li><a href="../index.html">首页</a></li>
+<li class="active">文章详情</li>
+</ul></div>
+<div class="container" style="margin-top: 30px;">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="panel panel-info">
+                <div class="panel-body">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active">
+                            <a href="view?id=62#">
+                                新闻                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">学术交流平台</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="http://bbs.gxuacm.net"  target="_blank">点击前往</a></li>
+                        <li class=""><a href="introduct" >平台简介</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-9">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        2019“东信杯”校赛宣传持续进行中，反响热烈                    </h3>
+                </div>
+                <div class="panel-body">
+                    <p>&nbsp; &nbsp; &nbsp; &nbsp;2019年“中国东信杯”广西大学第二届程序设计竞赛相关的一系列宣传和培训活动在校内持续升温。</p><p><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;">&nbsp; &nbsp; &nbsp;本次竞赛旨在培养和展示大学生分析、解决问题和计算机编程的能力，鼓励和培养创新思维，丰富校园学术气氛，并选拔优秀学生代表广西大学参加ICPC（国际大学生程序设计竞赛）和CCPC（中国国际大学生程序设计竞赛）。本次比赛也将向在校生传递中国东信企业文化，提升中国东信在我校乃至市内、区内高校的知名度。</span></p><p><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;">&nbsp; &nbsp; &nbsp; 赛事于近日开展宣传后，在校园内反响十分热烈，同学们参与的热情高涨，<span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;">截止目前（11月23日晚），</span>报名人数已接近800人，来自计电、数信、物理、资环、计协、土木、商学、海洋等十余个学院，东信杯校赛已经成为我校影响力最大，参赛人数最多的技术类竞赛。为了更好的提供赛事服务，计算机与电子信息学院计算机协会开展了一系列赛前辅导和培训活动，得到了同学们的欢迎。</span></p><p><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;">&nbsp; &nbsp; &nbsp; 校园主要干道上悬挂了“中国东信杯”广西大学第二届程序设计竞赛宣传横幅。</span></p><p style="text-align: center;"><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;">&nbsp; &nbsp; &nbsp;<img src="../upload/image/20191124/1574525377731594.png" title="1574525377731594.png" alt="横幅1small.png"/></span></p><p style="text-align: center;"><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;"><img src="../upload/image/20191124/1574525389583833.png" title="1574525389583833.png" alt="横幅2small.png"/></span></p><p><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;">&nbsp; &nbsp;&nbsp;</span></p><p><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;">广西大学贴吧君发起讨论，引起热议。</span><br/></p><p style="text-align: center;"><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;"><img src="../upload/image/20191124/1574525404724579.png" title="1574525404724579.png" alt="贴吧small.png"/></span></p><p><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;"><br/></span></p><p><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;计算机与电子信息学院计算机协会学长龙泽宇等人为参赛同学开展讲座等赛前培训活动。</span></p><p style="text-align: center;"><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;"><img src="../upload/image/20191124/1574525658830294.png" title="1574525658830294.png" alt="配信1small.png"/></span></p><p style="text-align: center;"><span style="font-family: &quot;Microsoft Yahei&quot;, Avenir, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;Microsoft Sans Serif&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif;"><img src="../upload/image/20191124/1574525678613211.png" title="1574525678613211.png" alt="培训2small.png"/></span></p>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <hr>
+    <footer>
+        <ul class="list-inline">
+            <li>&copy; 2019 广西大学计算机协会软件分会</li>
+            <li class="pull-right">邮箱 <a href="mailto: eecskexie@163.com">zfatgxu@qq.com</a></li>
+            <li class="pull-right">&middot;</li>
+            <li class="pull-right"><a href="view?id=62" target="_blank">@计算机与电子信息学院</a></li>
+        </ul>
+    </footer>
+</div>
+
+<script src="../assets/24cf7e83/jquery.js"></script>
+<script src="../assets/47a21a7e/yii.js"></script>
+<script src="../assets/607a87c5/js/bootstrap.js"></script>
+<script type="text/javascript">function logout() {
+var csrf=$("#csrf").val();
+$.ajax({
+type: "POST",
+url: "/user/security/logout",
+dataType: "json",
+data:
+{
+csrfToken:csrf
+},
+success: function(data)
+{
+},
+error: function(jqXHR)
+{
+},
+});
+}
+</script></body>
+</html>

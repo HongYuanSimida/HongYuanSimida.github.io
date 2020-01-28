@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="RFdiRk1xUGpwLiMVOUQ/WjBuMCR0MxsHdzojKBoXPQF8OAY.IwJmEg==">
+    <title>文章详情</title>
+    <link href="../assets/607a87c5/css/bootstrap.css" rel="stylesheet">
+<link href="../css/site.css" rel="stylesheet">
+    <link data-turbolinks-track="true" href="../css/application-ac06cc262f438189a83dfcaa5e13b737.css" tppabs="/css/application-ac06cc262f438189a83dfcaa5e13b737.css" media="all" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-5">
+            <a href="index">
+                <img alt="Sast" class="img-responsive heading" src="../images/sast-4a06cdcb9024f2fc6ccb6503f9e889b8.png" tppabs="/images/sast-4a06cdcb9024f2fc6ccb6503f9e889b8.png" />
+            </a>
+        </div>
+        <div class="col-md-5 col-md-offset-1 col-sm-7">
+            <div class="navbar navbar-default navbar-static-top heading-nav" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse heading-navbar">
+                    <ul class="nav navbar-nav">
+                        <input type="hidden" name="_csrf" id='csrf' value="RFdiRk1xUGpwLiMVOUQ/WjBuMCR0MxsHdzojKBoXPQF8OAY.IwJmEg==">
+                        <li class="active"><a href="index">首页</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="view?id=18#">动态 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class=""><a href="news" >新闻</a></li>
+                                <li class=""><a href="inform" >通知</a></li>
+                                <li class=""><a href="public" >公告</a></li>
+                                <li class=""><a href="active" >活动</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="view?id=18#">比赛 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class=""><a href="view?id=23" >广西大学程序设计竞赛</a></li>
+                                <li class=""><a href="view?id=28" >GDG开源技术社区团队邀请赛</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class=""><a href="about" >联系</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <ul class="breadcrumb"><li><a href="../index.html">首页</a></li>
+<li class="active">文章详情</li>
+</ul></div>
+<div class="container" style="margin-top: 30px;">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="panel panel-info">
+                <div class="panel-body">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active">
+                            <a href="view?id=18#">
+                                通知                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">学术交流平台</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="http://bbs.gxuacm.net"  target="_blank">点击前往</a></li>
+                        <li class=""><a href="introduct" >平台简介</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-9">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        “工程师走进校园”系列活动之“程序猿漫谈择业心得”讲座                    </h3>
+                </div>
+                <div class="panel-body">
+                    <p>各位同学们：<br/><br/>激动人心的宣讲会又来了！<br/>这次我们请到的是浩鲸科技（原中兴软创）的工程师！！<br/><br/><br/><br/>这次我们将带来绝对贴近同学们的宣讲内容！<br/><br/>&nbsp;<br/>培训主题：主讲者：浩鲸云计算科技股份有限公司系统架构师梁丁<br/>时间：2018年10月21日（周日）晚19:30<br/>地点：广西大学计算机与电子信息学院一楼<br/><br/>主讲者简介：<br/>浩鲸云计算科技股份有限公司(简称“浩鲸科技”)是阿里巴巴和中兴通讯共同投资的一家全球领先的数据智能科技公司，梁丁是浩鲸公司资深系统架构师，熟悉汇编、C++、C、JAVA等多种语言及Oracle、MySQL等多种数据库设计实现及运维管理,从事通讯行业软件开发超过10年，参与开发的系统有：客户关系管理，账务管理系统，计费系统，服务开通系统等，客户包括中国电信、中国联通、中国移动以及荷兰、波兰等国运营商。<br/>讲座主要内容：<br/>1、软件时代背景<br/>2、运营商数字化<br/>3、软件岗位认识<br/>4、软件开发必备知识<br/>讲座还包括问答等互动环节，主讲者将结合多年软件开发经验分享程序员就业与择业心得,欢迎计算机专业和其他相关专业同学参加。<br/><br/><br/><br/>这次将是由活跃在计算机业界的工程师给我们讲述他的的择业心得。可以让大家了解业界主流甚至最新技术方向，同时可以给予大家寻找合适的实习机会以及择业方面的指点。如果你对自己的就业未来感到迷茫，如果你想了解当下及未来业界最新最具竞争力的技术方向，我们的宣讲会将给会给你一个很高价值的回答。在现场你可以跟我们的工程师大佬提出你的疑惑和困扰，无论是即将面临就业还是刚刚接触这一专业的同学，这都将会是一次受益匪浅的活动！<br/>千万不要错过哦！<br/><br/>&nbsp;10.21日（本周日）晚七点半学院一楼活动厅，我们不见不散。<br/>&nbsp;&nbsp;<br/>广西大学计算机协会&nbsp;</p><p><br/></p>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <hr>
+    <footer>
+        <ul class="list-inline">
+            <li>&copy; 2019 广西大学计算机协会软件分会</li>
+            <li class="pull-right">邮箱 <a href="mailto: eecskexie@163.com">zfatgxu@qq.com</a></li>
+            <li class="pull-right">&middot;</li>
+            <li class="pull-right"><a href="view?id=18" target="_blank">@计算机与电子信息学院</a></li>
+        </ul>
+    </footer>
+</div>
+
+<script src="../assets/24cf7e83/jquery.js"></script>
+<script src="../assets/47a21a7e/yii.js"></script>
+<script src="../assets/607a87c5/js/bootstrap.js"></script>
+<script type="text/javascript">function logout() {
+var csrf=$("#csrf").val();
+$.ajax({
+type: "POST",
+url: "/user/security/logout",
+dataType: "json",
+data:
+{
+csrfToken:csrf
+},
+success: function(data)
+{
+},
+error: function(jqXHR)
+{
+},
+});
+}
+</script></body>
+</html>
