@@ -1,15 +1,13 @@
-
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-param" content="_csrf">
-    <meta name="csrf-token" content="dF8uSGpkMjFAJm8bHlFdAQBmfCpTJnlcRzJvJj0CX1pMMEowBBcESQ==">
+    <meta name="csrf-token" content="X0xfTXJIY0NrNR4eBn0Mcyt1DS9LCigubCEeIyUuDihnIzs1HDtVOw==">
     <title>文章详情</title>
     <link href="../assets/607a87c5/css/bootstrap.css" rel="stylesheet">
-<link href="../css/site.css" rel="stylesheet">
+    <link href="../css/site.css" rel="stylesheet">
     <link data-turbolinks-track="true" href="../css/application-ac06cc262f438189a83dfcaa5e13b737.css" tppabs="/css/application-ac06cc262f438189a83dfcaa5e13b737.css" media="all" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +19,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-sm-5">
-            <a href="index">
+            <a href="/index.html">
                 <img alt="Sast" class="img-responsive heading" src="../images/sast-4a06cdcb9024f2fc6ccb6503f9e889b8.png" tppabs="/images/sast-4a06cdcb9024f2fc6ccb6503f9e889b8.png" />
             </a>
         </div>
@@ -37,27 +35,27 @@
                 </div>
                 <div class="navbar-collapse collapse heading-navbar">
                     <ul class="nav navbar-nav">
-                        <input type="hidden" name="_csrf" id='csrf' value="dF8uSGpkMjFAJm8bHlFdAQBmfCpTJnlcRzJvJj0CX1pMMEowBBcESQ==">
-                        <li class="active"><a href="index">首页</a></li>
+                        <input type="hidden" name="_csrf" id='csrf' value="X0xfTXJIY0NrNR4eBn0Mcyt1DS9LCigubCEeIyUuDihnIzs1HDtVOw==">
+                        <li class="active"><a href="index.html">首页</a></li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="view?id=29#">动态 <span class="caret"></span></a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="view?id=6#">动态 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class=""><a href="news" >新闻</a></li>
-                                <li class=""><a href="inform" >通知</a></li>
-                                <li class=""><a href="public" >公告</a></li>
-                                <li class=""><a href="active" >活动</a></li>
+                                <li class=""><a href="news.html" >新闻</a></li>
+                                <li class=""><a href="inform.html" >通知</a></li>
+                                <li class=""><a href="public.html" >公告</a></li>
+                                <li class=""><a href="active.html" >活动</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="view?id=29#">比赛 <span class="caret"></span></a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="view?id=6#">比赛 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class=""><a href="view?id=23" >广西大学程序设计竞赛</a></li>
-                                <li class=""><a href="view?id=28" >GDG开源技术社区团队邀请赛</a></li>
-                                
+                                <li class=""><a href="view_id=23.html" >广西大学程序设计竞赛</a></li>
+                                <li class=""><a href="view_id=28.html" >GDG开源技术社区团队邀请赛</a></li>
+
                             </ul>
                         </li>
-                        <li class=""><a href="about" >联系</a></li>
-                        
+                        <li class=""><a href="about.html" >联系</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -75,7 +73,7 @@
                 <div class="panel-body">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="active">
-                            <a href="view?id=29#">
+                            <a href="view_id=29.html#">
                                 公告                            </a>
                         </li>
                     </ul>
@@ -89,7 +87,7 @@
                 <div class="panel-body">
                     <ul class="nav nav-pills nav-stacked">
                         <li><a href="http://bbs.gxuacm.net"  target="_blank">点击前往</a></li>
-                        <li class=""><a href="introduct" >平台简介</a></li>
+                        <li class=""><a href="introduct.html" >平台简介</a></li>
                     </ul>
                 </div>
             </div>
@@ -116,7 +114,7 @@
             <li>&copy; 2019 广西大学计算机协会软件分会</li>
             <li class="pull-right">邮箱 <a href="mailto: eecskexie@163.com">zfatgxu@qq.com</a></li>
             <li class="pull-right">&middot;</li>
-            <li class="pull-right"><a href="view?id=29" target="_blank">@计算机与电子信息学院</a></li>
+            <li class="pull-right"><a href="view_id=29.html" target="_blank">@计算机与电子信息学院</a></li>
         </ul>
     </footer>
 </div>
@@ -124,23 +122,6 @@
 <script src="../assets/24cf7e83/jquery.js"></script>
 <script src="../assets/47a21a7e/yii.js"></script>
 <script src="../assets/607a87c5/js/bootstrap.js"></script>
-<script type="text/javascript">function logout() {
-var csrf=$("#csrf").val();
-$.ajax({
-type: "POST",
-url: "/user/security/logout",
-dataType: "json",
-data:
-{
-csrfToken:csrf
-},
-success: function(data)
-{
-},
-error: function(jqXHR)
-{
-},
-});
-}
+<script type="text/javascript">
 </script></body>
 </html>

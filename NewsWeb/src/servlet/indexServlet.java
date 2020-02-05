@@ -11,21 +11,22 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.SQLException;
 import java.util.List;
 
-@WebServlet("/indexServlet")
+/**
+ * 首页servlet
+ */
+@WebServlet("/indexServlet")//注解方式编写名叫indexServlet的servlet
 public class indexServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/json;charset=UTF-8");
-        response.setCharacterEncoding("UTF-8");
         List<News> list = null;
         try {
-            list = SelectUtils.select("SELECT * FROM article");
+            list = SelectUtils.select("SELECT * FROM article");//查询新闻
         } catch (Exception e) {
             e.printStackTrace();
         }
-        String s = JSON.toJSONString(list);
+        String s = JSON.toJSONString(list);//用fastJson转换成Json格式返回给前台
         PrintWriter out = response.getWriter();
         out.println(s);
         out.flush();

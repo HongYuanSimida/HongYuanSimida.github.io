@@ -21,7 +21,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-sm-5">
-            <a href="index">
+            <a href="/index.html">
                 <img alt="Sast" class="img-responsive heading" src="../images/sast-4a06cdcb9024f2fc6ccb6503f9e889b8.png" tppabs="/images/sast-4a06cdcb9024f2fc6ccb6503f9e889b8.png" />
             </a>
         </div>
@@ -38,25 +38,25 @@
                 <div class="navbar-collapse collapse heading-navbar">
                     <ul class="nav navbar-nav">
                         <input type="hidden" name="_csrf" id='csrf' value="Wi1DaFc1dDVuVAI7IwAbBS4UEQpudz9YaUACBgBTGV5iQicQOUZCTQ==">
-                        <li class="active"><a href="index">首页</a></li>
+                        <li class="active"><a href="index.html">首页</a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="active#">动态 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class=""><a href="news" >新闻</a></li>
-                                <li class=""><a href="inform" >通知</a></li>
-                                <li class=""><a href="public" >公告</a></li>
-                                <li class=""><a href="active" >活动</a></li>
+                                <li class=""><a href="news.html" >新闻</a></li>
+                                <li class=""><a href="inform.html" >通知</a></li>
+                                <li class=""><a href="public.html" >公告</a></li>
+                                <li class=""><a href="active.html" >活动</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="active#">比赛 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class=""><a href="view?id=23" >广西大学程序设计竞赛</a></li>
-                                <li class=""><a href="view?id=28" >GDG开源技术社区团队邀请赛</a></li>
+                                <li class=""><a href="view_id=23.html" >广西大学程序设计竞赛</a></li>
+                                <li class=""><a href="view_id=28.html" >GDG开源技术社区团队邀请赛</a></li>
                                 
                             </ul>
                         </li>
-                        <li class=""><a href="about" >联系</a></li>
+                        <li class=""><a href="about.html" >联系</a></li>
                         
                     </ul>
                 </div>
@@ -84,28 +84,9 @@
                             <th>类型</th>
                         </tr>
                         </thead>
-                        <tbody>
-                                                <tr>
-                            <td>2018-10-23</td>
-                            <td><a href="view?id=20">“工程师走进校园”系列讲座第二期顺利举办！</a></td>
-                            <td><a>活动</a></td>
-                        </tr>
-                                                <tr>
-                            <td>2018-10-12</td>
-                            <td><a href="view?id=11">计算机协会2018第一次集体培训！</a></td>
-                            <td><a>活动</a></td>
-                        </tr>
-                                                <tr>
-                            <td>2018-10-10</td>
-                            <td><a href="view?id=8">“工程师走进校园”系列活动之东信工程师交流分享会</a></td>
-                            <td><a>活动</a></td>
-                        </tr>
-                                                <tr>
-                            <td>2017-05-10</td>
-                            <td><a href="view?id=6">5·9网络安全技术沙龙——与“大佬”的见面座谈会</a></td>
-                            <td><a>活动</a></td>
-                        </tr>
-                                                </tbody>
+                        <tbody id="news">
+
+                        </tbody>
                     </table>
                 </div>
 
@@ -121,7 +102,7 @@
                 <div class="panel-body">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="active"><a href="http://bbs.gxuacm.net"  target="_blank">点击前往</a></li>
-                        <li><a href="introduct">平台简介</a></li>
+                        <li><a href="introduct.html">平台简介</a></li>
                     </ul>
                 </div>
             </div>
@@ -156,23 +137,17 @@
 <script src="../assets/24cf7e83/jquery.js"></script>
 <script src="../assets/47a21a7e/yii.js"></script>
 <script src="../assets/607a87c5/js/bootstrap.js"></script>
-<script type="text/javascript">function logout() {
-var csrf=$("#csrf").val();
-$.ajax({
-type: "POST",
-url: "/user/security/logout",
-dataType: "json",
-data:
-{
-csrfToken:csrf
-},
-success: function(data)
-{
-},
-error: function(jqXHR)
-{
-},
-});
-}
+<script type="text/javascript">
+    $.get("/newsweb/activeServlet", null, function (data) {
+        for (var i in data) {
+            var time = data[i].time;
+            var content = data[i].content;
+            content=content.replace("site/","");
+            var type = data[i].type;
+            var title = data[i].title;
+            $("#news").append("<tr ><td>" + time + "</td><td><a href=\"" + content + "\" target='_blank'>" + title + "</a></td><td><a>" + type + "</a></td></tr>");
+        }
+
+    });
 </script></body>
 </html>

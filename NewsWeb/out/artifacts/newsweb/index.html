@@ -38,7 +38,7 @@
                     <ul class="nav navbar-nav">
                         <input type="hidden" name="_csrf" id='csrf'
                                value="cGRaS2FTVy5EHRsYFWY4HgRdCClYERxDQwkbJTY1OkVICz4zDyBhVg==">
-                        <li class="active"><a href="site/index.html">首页</a></li>
+                        <li class="active"><a href="index.html">首页</a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="index.html#">动态 <span
                                     class="caret"></span></a>
@@ -53,8 +53,8 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="index.html#">比赛 <span
                                     class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class=""><a href="site/view?id=23.html">广西大学程序设计竞赛</a></li>
-                                <li class=""><a href="site/view?id=28.html">GDG开源技术社区团队邀请赛</a></li>
+                                <li class=""><a href="site/view_id=23.html">广西大学程序设计竞赛</a></li>
+                                <li class=""><a href="site/view_id=28.html">GDG开源技术社区团队邀请赛</a></li>
 
                             </ul>
                         </li>
@@ -107,7 +107,6 @@
                         <tbody id="news">
                         </tbody>
                     </table>
-                    <p><a class="btn btn-primary" href="site/list.html">更多动态</a></p>
                 </div>
             </div>
         </div>
@@ -137,7 +136,7 @@
                             </a></p>
                         </div>
                     </div>
-                    <p style="text-align: center;"><a class="btn btn-primary" href="index.html#">往期刊物</a></p>
+                    <p style="text-align: center;"><a class="btn btn-primary" href="index.html">往期刊物</a></p>
                 </div>
             </div>
 
@@ -166,11 +165,7 @@
             var content = data[i].content;
             var type = data[i].type;
             var title = data[i].title;
-            $("#news").append("<tr >\n" +
-                "                                <td>" + time + "</td>\n" +
-                "                                <td><a href=\"" + content + "\" target='_blank'>" + title + "</a></td>\n" +
-                "                                <td><a>" + type + "</a></td>\n" +
-                "                            </tr>");
+            $("#news").append("<tr ><td>" + time + "</td><td><a href=\"" + content + "\" target='_blank'>" + title + "</a></td><td><a>" + type + "</a></td></tr>");
         }
 
     });
