@@ -16,7 +16,8 @@
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
-
+CREATE DATABASE newsweb;
+USE newsweb;
 -- ----------------------------
 -- Table structure for article
 -- ----------------------------
